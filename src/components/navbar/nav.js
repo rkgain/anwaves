@@ -13,15 +13,15 @@ const Nav = (props) => {
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#">
+                        <a class="navbar-brand" href="/">
                             <img src="images/logo1.png" alt="Andaman ocean and hills logo" class="logo" />
                         </a>
                     </div>
                     <div id="navbar2" class="navbar-collapse collapse" >
                         <ul class="nav navbar-nav navbar-right" style={{ marginTop: "8px" }}>
-                            <li class="active"><a href=".">Home</a></li>
+                            <li class="active"><a href="/">Home</a></li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Andamans <span class="caret"></span></a>
+                                <a href="#/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Andamans <span class="caret"></span></a>
                                 <ul class="dropdown-menu" role="menu">
                                     <li><a href="besttime.html">Best time to visit Andaman</a></li>
                                     <li><a href="placestovisit.html">Wonders of Andamans</a></li>
@@ -30,7 +30,7 @@ const Nav = (props) => {
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Packages<span class="caret"></span></a>
+                                <a href="#/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Packages<span class="caret"></span></a>
                                 <ul class="dropdown-menu" role="menu">
 
                                     <li><a href="honeymoon3n4d.html">Honeymoon 3 Nights 4 Days</a></li>

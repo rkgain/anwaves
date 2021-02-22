@@ -1,4 +1,4 @@
-import React, { useEffect, lazy, Suspense } from "react";
+import React, { useEffect } from "react";
 
 
 import { scroller, animateScroll } from 'react-scroll';
