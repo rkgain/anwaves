@@ -14,6 +14,7 @@ import './assets/FA/css/font-awesome.min.css';
 import Spinner from "./components/ui-components/spinner/spinner";
 import Navbar from "./components/navbar/nav";
 import Home from "./components/home/home";
+import Footer from './components/footer/footer';
 //import Contact from "./components/contact/contact";
 //import Footer from "./components/footer/footer";
 
@@ -39,6 +40,8 @@ class App extends React.Component {
     return (
       <div className="App">
         <Navbar />
+
+
         {/* <br/><br/><br/>    
 <Send/> */}
         <Switch>
@@ -56,7 +59,7 @@ class App extends React.Component {
 
 
         </Switch>
-
+        <Footer />
 
         {/* <Slider/> */}
         {/* <SimpleReactLightbox>

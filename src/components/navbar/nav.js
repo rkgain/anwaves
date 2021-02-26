@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
+// import Logo from '../../assets/images/logo.png';
+
 // import { Link } from "react-router-dom";
 const Nav = (props) => {
     return (
 
         <div class="container example2 ">
-            <nav class="nav navbar-default navbar-fixed-top trans redcolor" id="menuhome">
+            <nav class="nav navbar-default navbar-fixed-top redcolor" id="menuhome">
                 <div class="container-fluid" style={{ height: "70px" }}>
                     <div class="navbar-header" >
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar2">
@@ -14,7 +16,7 @@ const Nav = (props) => {
                             <span class="icon-bar"></span>
                         </button>
                         <a class="navbar-brand" href="/">
-                            <img src="images/logo1.png" alt="Andaman ocean and hills logo" class="logo" />
+                            <img src="" alt="Andaman ocean and hills logo" class="logo" />
                         </a>
                     </div>
                     <div id="navbar2" class="navbar-collapse collapse" >

@@ -5,6 +5,8 @@ import { scroller, animateScroll } from 'react-scroll';
 
 import Hero from '../homeslider/slider';
 import Services from '../services/service';
+import Packages from '../packages/packages';
+import Reviews from "../reviews/reviews";
 // import { Row, Col } from "react-flexbox-grid";
 
 const Home = (props) => {
@@ -36,6 +38,8 @@ const Home = (props) => {
 
             <Hero />
             <Services />
+            <Packages />
+            <Reviews />
             {/* <Hero />
             <Reach />
             

@@ -20,26 +20,26 @@ $(document).ready(function () {
 
 
     $(window).scroll(function () {
-        
-       
+
+
         if (_scroll) {
 
-            
-            if (window.scrollY > 300) {
 
-                $("#menuhome").removeClass("trans");
-                $("#menuhome").addClass("redcolor");
+            // if (window.scrollY > 300) {
 
-            }
-            else {
-                $("#menuhome").removeClass("redcolor");
-                $("#menuhome").addClass("trans");
-            }
+            //     $("#menuhome").removeClass("trans");
+            //     $("#menuhome").addClass("redcolor");
+
+            // }
+            // else {
+            //     $("#menuhome").removeClass("redcolor");
+            //     $("#menuhome").addClass("trans");
+            // }
 
         }
 
     });
 
-   
+
 
 });
