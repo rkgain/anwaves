@@ -24,7 +24,7 @@ const Contact = (props) => {
                         </div>
                         <div class="col-md-6">
                             <div class="map">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3029.2188753874375!2d-73.9617075!3d40.6029943!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c244f289a17b03%3A0x5108f35e55b5aa3c!2s983+Avenue+S%2C+Brooklyn%2C+NY+11223%2C+Amerika+Serikat!5e0!3m2!1sid!2sid!4v1411068708925" frameborder="0" style={{ border: "0" }} title="Google Map"></iframe>
+                                {/* <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3029.2188753874375!2d-73.9617075!3d40.6029943!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c244f289a17b03%3A0x5108f35e55b5aa3c!2s983+Avenue+S%2C+Brooklyn%2C+NY+11223%2C+Amerika+Serikat!5e0!3m2!1sid!2sid!4v1411068708925" frameborder="0" style={{ border: "0" }} title="Google Map"></iframe> */}
                             </div>
 
 
