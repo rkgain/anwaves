@@ -1,29 +1,39 @@
 import React from 'react';
-// import Logo from '../../assets/images/logo.png';
-
+import Logo from '../../assets/images/logo.png';
+//import { Link } from "react-router-dom";
 // import { Link } from "react-router-dom";
 const Nav = (props) => {
     return (
 
-        <div class="container example2 ">
-            <nav class="nav navbar-default navbar-fixed-top redcolor" id="menuhome">
-                <div class="container-fluid" style={{ height: "70px" }}>
-                    <div class="navbar-header" >
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar2">
-                            <span class="sr-only"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
+        <div className="container example2 ">
+            <nav className="nav navbar-default navbar-fixed-top redcolor" id="menuhome">
+                <div className="container-fluid">
+                    <div className="navbar-header" >
+                        <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar2">
+                            <span className="sr-only"></span>
+                            <span className="icon-bar"></span>
+                            <span className="icon-bar"></span>
+                            <span className="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="/">
-                            <img src="" alt="Andaman ocean and hills logo" class="logo" />
+                        <a className="navbar-brand" href="/">
+                            <img src={Logo} alt="Andaman blue waves logo" className="logo" />
                         </a>
                     </div>
-                    <div id="navbar2" class="navbar-collapse collapse" >
-                        <ul class="nav navbar-nav navbar-right" style={{ marginTop: "8px" }}>
-                            <li class="active"><a href="/">Home</a></li>
-                            <li class="dropdown">
-                                <a href="#/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Andamans <span class="caret"></span></a>
+                    <div id="navbar2" className="navbar-collapse collapse" >
+                        <ul className="nav navbar-nav navbar-right" style={{ marginTop: "8px" }}>
+
+                            <li> <a href="/">
+                                Home
+            </a></li>
+                            <li>  <a href="/places-to-visit-in-andaman">
+                                Places
+            </a></li>
+
+                            <li>       <a href="/Contact-us">
+                                Contact Us
+            </a></li>
+                            {/* <li className="dropdown">
+                                <a href="#/" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Andamans <span class="caret"></span></a>
                                 <ul class="dropdown-menu" role="menu">
                                     <li><a href="besttime.html">Best time to visit Andaman</a></li>
                                     <li><a href="placestovisit.html">Wonders of Andamans</a></li>
@@ -46,7 +56,7 @@ const Nav = (props) => {
                             </li>
                             <li><a href="Activities.html">Activities</a></li>
                             <li><a href="aboutus.html">About Us</a></li>
-                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="contact.html">Contact Us</a></li> */}
 
                         </ul>
                     </div>

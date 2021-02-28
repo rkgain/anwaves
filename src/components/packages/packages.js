@@ -10,20 +10,20 @@ import Group from '../../assets/images/groupth.jpg';
 const Packages = (props) => {
     return (
 
-        <div class="fullwidth-block offers-section" data-bg-color="#f1f1f1">
-            <div class="container">
+        <div className="fullwidth-block offers-section" data-bg-color="#f1f1f1">
+            <div className="container">
 
-                <h2 class="section-title">The newest holiday packages</h2>
-                <div class="row">
-                    <div class="col-md-4 col-sm-6 col-xs-12" >
-                        <article class="packwid offer  wow bounceIn " data-wow-delay=".2s" >
+                <h2 className="section-title">The newest holiday packages</h2>
+                <div className="row">
+                    <div className="col-md-4 col-sm-6 col-xs-12" >
+                        <article className="packwid offer  wow bounceIn " data-wow-delay=".2s" >
 
-                            <figure class="featured-image hov">
+                            <figure className="featured-image hov">
                                 <img src={Honey1} alt="Honeymoon package thumbnail" />
                             </figure>
                             <div className="packtitle" >
-                                <span>Honey Moon</span>
-                                <span>3 Nights 4 days</span>
+                                <span>Holiday Packages</span>
+                                <span>From 2 Nights 3 Days</span>
                             </div>
 
                             <div className="packover" >
@@ -33,16 +33,16 @@ const Packages = (props) => {
                         </article>
 
                     </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <article class="packwid offer  wow bounceIn " data-wow-delay=".2s">
+                    <div className="col-md-4 col-sm-6 col-xs-12">
+                        <article className="packwid offer  wow bounceIn " data-wow-delay=".2s">
 
-                            <figure class="featured-image hov">
+                            <figure className="featured-image hov">
                                 <img src={Honey2} alt="Honeymoon package thumbnail" />
                             </figure>
 
                             <div className="packtitle" >
-                                <span>Honey Moon</span>
-                                <span>3 Nights 4 days</span>
+                                <span>Honey Moon Packages</span>
+                                <span>From 2 Nights 3 days</span>
                             </div>
 
                             <div className="packover" >
@@ -51,16 +51,16 @@ const Packages = (props) => {
 
                         </article>
                     </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <article class="packwid offer  wow bounceIn " data-wow-delay=".2s">
+                    <div className="col-md-4 col-sm-6 col-xs-12">
+                        <article className="packwid offer  wow bounceIn " data-wow-delay=".2s">
 
-                            <figure class="featured-image hov">
+                            <figure className="featured-image hov">
                                 <img src={Andaman1} alt="Andaman Holiday package thumbnail" />
                             </figure>
 
                             <div className="packtitle" >
-                                <span>Honey Moon</span>
-                                <span>3 Nights 4 days</span>
+                                <span>Solo Packages</span>
+                                <span>From 2 Nights 3 Days</span>
                             </div>
 
                             <div className="packover" >
@@ -70,16 +70,16 @@ const Packages = (props) => {
 
                         </article>
                     </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <article class="packwid offer  wow bounceIn " data-wow-delay=".2s">
+                    <div className="col-md-4 col-sm-6 col-xs-12">
+                        <article className="packwid offer  wow bounceIn " data-wow-delay=".2s">
 
-                            <figure class="featured-image hov">
+                            <figure className="featured-image hov">
                                 <img src={Family1} alt="Family Holiday package thumbnail" />
                             </figure>
 
                             <div className="packtitle" >
-                                <span>Honey Moon</span>
-                                <span>3 Nights 4 days</span>
+                                <span>Budget Packages</span>
+                                <span>From 2 Nights 3 days</span>
                             </div>
 
                             <div className="packover" >
@@ -88,16 +88,16 @@ const Packages = (props) => {
 
                         </article>
                     </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <article class="packwid offer  wow bounceIn " data-wow-delay=".2s">
+                    <div className="col-md-4 col-sm-6 col-xs-12">
+                        <article className="packwid offer  wow bounceIn " data-wow-delay=".2s">
 
-                            <figure class="featured-image hov">
+                            <figure className="featured-image hov">
                                 <img src={Family2} alt="Family Holiday package thumbnail" />
                             </figure>
 
                             <div className="packtitle" >
-                                <span>Honey Moon</span>
-                                <span>3 Nights 4 days</span>
+                                <span>Family Packages</span>
+                                <span>From 2 Nights 3 Days</span>
                             </div>
 
                             <div className="packover" >
@@ -107,16 +107,16 @@ const Packages = (props) => {
 
                         </article>
                     </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <article class="packwid offer  wow bounceIn " data-wow-delay=".2s">
+                    <div className="col-md-4 col-sm-6 col-xs-12">
+                        <article className="packwid offer  wow bounceIn " data-wow-delay=".2s">
 
-                            <figure class="featured-image hov">
+                            <figure className="featured-image hov">
                                 <img src={Group} alt="Group Holiday package thumbnail" />
                             </figure>
 
                             <div className="packtitle" >
-                                <span>Honey Moon</span>
-                                <span>3 Nights 4 days</span>
+                                <span>Group Packages</span>
+                                <span>From 3 Nights 4 Days</span>
                             </div>
 
                             <div className="packover" >

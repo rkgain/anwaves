@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react';
+import React, { Suspense, lazy } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import AOS from 'aos';
 
@@ -14,6 +14,7 @@ import './assets/FA/css/font-awesome.min.css';
 import Spinner from "./components/ui-components/spinner/spinner";
 import Navbar from "./components/navbar/nav";
 import Home from "./components/home/home";
+
 import Footer from './components/footer/footer';
 //import Contact from "./components/contact/contact";
 //import Footer from "./components/footer/footer";
@@ -26,6 +27,9 @@ import Footer from './components/footer/footer';
 //const Packages = lazy(() => import('./components/packages/packages'));
 //const Contact = lazy(() => import('./components/contact/contact'));
 //const Home = lazy(() => import('./components/home/home'));
+
+const Places = lazy(() => import('./components/places/places'));
+const Contact = lazy(() => import('./components/contact/contact'));
 class App extends React.Component {
 
   componentDidMount() {
@@ -48,6 +52,8 @@ class App extends React.Component {
 
           <Suspense fallback={<Spinner />}>
             <Route exact path='/' component={Home} />
+            <Route exact path='/places-to-visit-in-andaman' component={Places} />
+            <Route exact path='/Contact-us' component={Contact} />
 
             {/* <Route path='/contact' component={Blog} key="sdfsdfds"/>
               <Route path='/about' component={About} key="sdfsdfds" /> 

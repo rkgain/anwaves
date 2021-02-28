@@ -33,7 +33,7 @@ const Home = (props) => {
 
 
     return (
-        <main class="content">
+        <main className="content">
 
 
             <Hero />
