@@ -7,6 +7,7 @@ import Hero from '../homeslider/slider';
 import Services from '../services/service';
 import Packages from '../packages/packages';
 import Reviews from "../reviews/reviews";
+import { Helmet } from "react-helmet";
 // import { Row, Col } from "react-flexbox-grid";
 
 const Home = (props) => {
@@ -35,7 +36,13 @@ const Home = (props) => {
     return (
         <main className="content">
 
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title> Andaman Blue Waves - Best class local tour operator in Andaman</title>
+                <meta name="description" content="Andaman Blue Waves is a locally situated travel agency which provides best class travel solutions and tour packages for Andaman to almost every range of customers" />
 
+                <link rel="canonical" href="https://andamanbluewaves.com/" />
+            </Helmet>
             <Hero />
             <Services />
             <Packages />

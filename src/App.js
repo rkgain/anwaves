@@ -1,7 +1,7 @@
 import React, { Suspense, lazy } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import AOS from 'aos';
-
+import { Toaster } from 'react-hot-toast';
 //import './style/App.scss';
 import 'aos/dist/aos.css';
 
@@ -53,7 +53,7 @@ class App extends React.Component {
           <Suspense fallback={<Spinner />}>
             <Route exact path='/' component={Home} />
             <Route exact path='/places-to-visit-in-andaman' component={Places} />
-            <Route exact path='/Contact-us' component={Contact} />
+            <Route exact path='/contact-us' component={Contact} />
 
             {/* <Route path='/contact' component={Blog} key="sdfsdfds"/>
               <Route path='/about' component={About} key="sdfsdfds" /> 
@@ -81,7 +81,7 @@ class App extends React.Component {
         {/* <Contact /> */}
         {/* <Footer /> */}
 
-
+        <Toaster position="bottom-right" />
       </div>
     );
   }

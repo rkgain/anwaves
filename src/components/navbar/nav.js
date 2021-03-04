@@ -29,7 +29,7 @@ const Nav = (props) => {
                                 Places
             </a></li>
 
-                            <li>       <a href="/Contact-us">
+                            <li>       <a href="/contact-us">
                                 Contact Us
             </a></li>
                             {/* <li className="dropdown">

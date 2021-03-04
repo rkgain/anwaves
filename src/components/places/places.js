@@ -11,10 +11,16 @@ import Chidiyatapu from "../../assets/images/chidiyatapu.jpg";
 import Portblair from "../../assets/images/portblair.jpg";
 import Ross from "../../assets/images/ross.jpg";
 import RossSmith from "../../assets/images/rosssmith1.jpg";
+import { Helmet } from 'react-helmet';
 
 const Places = (props) => {
     return (
         <main className="content">
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Places to visit in Andaman - Andaman Blue Waves </title>
+                <link rel="canonical" href="https://andamanbluewaves.com/places-to-visit-in-andaman" />
+            </Helmet>
             <div className="fullwidth-block">
                 <div className="container">
                     <div className="row">
