@@ -40,8 +40,8 @@ const Contact = (props) => {
                                         </li>
                                     <li>
                                         <div className="social-links">
-                                            <a href="#/" className="facebook"><i className="fa fa-facebook"></i></a>
-                                            <a href="#/" className="twitter"><i className="fa fa-instagram"></i></a>
+                                            <a href="https://www.facebook.com/andamanbluewaves/" className="facebook" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook"></i></a>
+                                            <a href="https://www.instagram.com/andamanbluewaves/?igshid=zcoomrfyji9r" className="twitter" target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram"></i></a>
                                             {/* <a href="#/" className="google-plus"><i className="fa fa-google-plus"></i></a>
                                             <a href="#/" className="pinterest"><i className="fa fa-pinterest"></i></a> */}
                                         </div>
